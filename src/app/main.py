@@ -1,16 +1,14 @@
-import os
 import re
 from flask import Flask, jsonify, request
 from mangum import Mangum
 from asgiref.wsgi import WsgiToAsgi
 from discord_interactions import verify_key_decorator
-
-DISCORD_PUBLIC_KEY = os.environ.get("DISCORD_PUBLIC_KEY")
-YUAN_TO_EURO_RATE = 0.13
+from config import DISCORD_PUBLIC_KEY, YUAN_TO_EURO_RATE
 
 app = Flask(__name__)
 asgi_app = WsgiToAsgi(app)
 handler = Mangum(asgi_app)
+
 
 # Constants for Taobao URLs
 ITEM_ID = 'id='
