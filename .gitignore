@@ -172,8 +172,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-/src/config.js
-/src/index.js
-/package.json
-/package-lock.json
-/wrangler.toml

@@ -1,0 +1,6 @@
+name = "discord-bot"
+main = "src/index.js"
+compatibility_date = "2025-05-19"
+
+[vars]
+YUAN_TO_EURO_RATE = "0.13"

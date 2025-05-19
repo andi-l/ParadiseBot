@@ -1,0 +1,30 @@
+{
+  "name": "paradise-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for converting Taobao, Weidian, 1688, and Yupoo links",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node scripts/register-commands.js",
+    "show-commands": "node scripts/show-commands.js",
+    "delete-command": "node scripts/delete-command.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "taobao",
+    "weidian",
+    "1688",
+    "yupoo",
+    "link",
+    "conversion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord-interactions": "^3.4.0",
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.0.3"
+  }
+}
