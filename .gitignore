@@ -172,7 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-/commands/register_commands.py
-/commands/delete_command.py
-/commands/show_commands.py
-/src/app/config.py
+/src/config.js
+/src/index.js
+/package.json
+/package-lock.json
+/wrangler.toml
