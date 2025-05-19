@@ -1,4 +1,3 @@
-// delete_command.js
 export async function deleteCommand(commandId, TOKEN, APPLICATION_ID) {
   if (!TOKEN || !APPLICATION_ID) {
     console.error("Discord token or application ID missing");
