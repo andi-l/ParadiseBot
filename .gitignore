@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/commands/register_commands.py
+/commands/delete_command.py
+/commands/show_commands.py
